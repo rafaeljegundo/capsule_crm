@@ -27,6 +27,7 @@ module CapsuleCRM
     attribute :tag, String
     attribute :boolean, Boolean
     attribute :text, String
+    attribute :number, Integer
 
     validates :id, numericality: { allow_blank: true }
     validates :label, presence: true
