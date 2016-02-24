@@ -9,6 +9,7 @@ module CapsuleCRM
     include CapsuleCRM::Associations
     include CapsuleCRM::Inspector
     include CapsuleCRM::Querying::Configuration
+    include CapsuleCRM::Persistence::Persistable
     include CapsuleCRM::Serializable
 
     serializable_config do |config|
